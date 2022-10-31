@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChevroletComponent } from './chevrolet/chevrolet.component';
+import { ToyotaComponent } from './toyota/toyota.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChevroletComponent,
+    ToyotaComponent
   ],
   imports: [
     BrowserModule,
