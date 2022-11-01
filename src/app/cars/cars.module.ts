@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { CarsRoutingModule } from './cars-routing.module';
+
 import { ChevroletComponent } from './chevrolet/chevrolet.component';
 import { ToyotaComponent } from './toyota/toyota.component';
 import { RenaultComponent } from './renault/renault.component';
@@ -13,8 +16,8 @@ import { RenaultComponent } from './renault/renault.component';
     RenaultComponent
   ],
   imports: [
-    CommonModule
-  ],
-  exports: [ChevroletComponent, ToyotaComponent, RenaultComponent]
+    CommonModule,
+    CarsRoutingModule
+  ]
 })
 export class CarsModule { }
