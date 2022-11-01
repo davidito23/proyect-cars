@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { SharedModule } from './shared/shared.module';
+import { GeneralModule } from './general/general.module';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
 
 import { ChevroletComponent } from './cars/chevrolet/chevrolet.component'; 
@@ -16,12 +17,14 @@ import { RenaultComponent } from './cars/renault/renault.component';
     ChevroletComponent,
     ToyotaComponent,
     RenaultComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    SharedModule
+    GeneralModule,
+    SharedModule,
     
   ],
   exports: [RouterModule],

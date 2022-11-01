@@ -14,6 +14,8 @@ import { DialogComponent } from './components/dialog/dialog.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports : [MenuComponent, FooterComponent]
+  
 })
 export class SharedModule { }

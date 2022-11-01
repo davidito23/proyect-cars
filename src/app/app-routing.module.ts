@@ -5,9 +5,9 @@ import { FooterComponent } from './shared/pages/footer/footer.component';
 import { MenuComponent } from './shared/pages/menu/menu.component';
 
 const routes: Routes = [
- { path: 'general', component: PageGeneralComponent },
- { path: 'menu', component: MenuComponent },
- { path: 'footer', component: FooterComponent } 
+ { path: '', component: PageGeneralComponent},
+ { path: '', component: MenuComponent },
+ { path: '', component: FooterComponent } 
 ];
 
 @NgModule({
