@@ -6,12 +6,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
+import { CarsModule } from './cars/cars.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    
-    
   ],
   imports: [
     BrowserModule,
@@ -19,6 +18,7 @@ import { AppComponent } from './app.component';
     RouterModule,
     GeneralModule,
     SharedModule,
+    CarsModule
     
     
   ],
