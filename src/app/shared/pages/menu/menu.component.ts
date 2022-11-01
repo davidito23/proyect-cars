@@ -12,6 +12,7 @@ export class MenuComponent implements OnInit {
   items: MenuItem[]=[];
   ngOnInit(){
     this.items = [
+      {label:'Home'},
       {label:'Chevrolet'},
       {label:'Toyota'},
       {label:'Renault'},

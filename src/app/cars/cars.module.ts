@@ -14,6 +14,7 @@ import { RenaultComponent } from './renault/renault.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [ChevroletComponent, ToyotaComponent, RenaultComponent]
 })
 export class CarsModule { }

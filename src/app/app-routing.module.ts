@@ -5,7 +5,8 @@ import { FooterComponent } from './shared/pages/footer/footer.component';
 import { MenuComponent } from './shared/pages/menu/menu.component';
 
 const routes: Routes = [
- { path: '', component: PageGeneralComponent},
+ { path: '', redirectTo: 'general', pathMatch: 'full' },
+ { path: 'general', component: PageGeneralComponent},
  { path: '', component: MenuComponent },
  { path: '', component: FooterComponent } 
 ];

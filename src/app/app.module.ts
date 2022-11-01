@@ -7,16 +7,10 @@ import { RouterModule } from '@angular/router';
 import { SharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
 
-import { ChevroletComponent } from './cars/chevrolet/chevrolet.component'; 
-import { ToyotaComponent } from './cars/toyota/toyota.component'; 
-import { RenaultComponent } from './cars/renault/renault.component';
-
 @NgModule({
   declarations: [
     AppComponent,
-    ChevroletComponent,
-    ToyotaComponent,
-    RenaultComponent,
+    
     
   ],
   imports: [
@@ -26,8 +20,8 @@ import { RenaultComponent } from './cars/renault/renault.component';
     GeneralModule,
     SharedModule,
     
+    
   ],
-  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
