@@ -5,6 +5,10 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { DialogComponent } from './components/dialog/dialog.component';
 
+import {BreadcrumbModule} from 'primeng/breadcrumb';
+
+
+
 
 @NgModule({
   declarations: [
@@ -13,7 +17,10 @@ import { DialogComponent } from './components/dialog/dialog.component';
     DialogComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    BreadcrumbModule,
+    
+    
   ],
   exports : [MenuComponent, FooterComponent]
   
