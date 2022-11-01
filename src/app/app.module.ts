@@ -15,8 +15,6 @@ import { CarsModule } from './cars/cars.module';
     AppRoutingModule,
     CarsModule,
     SharedModule
-    
-    
   ],
   providers: [],
   bootstrap: [AppComponent]
