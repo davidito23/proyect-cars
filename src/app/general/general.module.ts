@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PageComponent } from './page/page.component';
-
-
+import { PageGeneralComponent } from './page-general/page-general.component';
 
 @NgModule({
   declarations: [
-    PageComponent
+    PageGeneralComponent
   ],
   imports: [
     CommonModule
